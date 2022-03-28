@@ -24,10 +24,10 @@ spec:
               secretKeyRef:
                 key: db-password
                 name: mysql-db-password
-        resources:
-          limits:
-            memory: "1Gi"
-            cpu: "500m"
+        # resources:
+        #   limits:
+        #     memory: "1Gi"
+        #     cpu: "500m"
         ports:
         - containerPort: 3306
         volumeMounts:
