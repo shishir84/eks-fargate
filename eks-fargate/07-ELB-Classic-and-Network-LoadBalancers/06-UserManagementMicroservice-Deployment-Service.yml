@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: usermgmt-microservice
-  namespace: dev3
   labels:
     app: usermgmt-restapp
 spec:
